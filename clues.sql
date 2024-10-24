@@ -79,6 +79,7 @@ WHERE country.name = 'Ecuador' AND city.id = country.capital;
 
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
+
 SELECT name, population, countrycode
 FROM cities
 WHERE population = 91084;
